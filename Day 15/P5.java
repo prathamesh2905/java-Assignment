@@ -1,21 +1,14 @@
-import java.util.Scanner;
-class P5{
-    public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter first num");
-        int num1 = sc.nextInt();
-        System.out.println("Enter second num");
-        int num2 = sc.nextInt();
-        System.out.println("Enter third num");
-        int num3 = sc.nextInt();
-        if(num1>num2 && num1>num3){
-            System.out.println("The Maximum number amongst "+num1+","+num2+" & "+num3+" is "+num1);
-        }
-        else if(num2>num1 && num2>num3){
-            System.out.println("The Maximum number amongst "+num1+","+num2+" & "+num3+" is "+num2);
-        }
-        else{
-            System.out.println("The Maximum number amongst "+num1+","+num2+" & "+num3+" is "+num3);
-        }
-    }
+class Thite
+{
+void add(int...a)
+{
+for(int b:a)
+{
+System.out.print(" \t"+b);
+}
+}
+public static void main(String args[])
+{
+Thite y=new Thite(); y.add(20,30,40,50);
+}
 }
